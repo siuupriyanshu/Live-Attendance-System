@@ -14,11 +14,13 @@ const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 
 // Routes
 app.use('/auth', authRouter);
-app.use('/attendance', attendanceRouter);
-app.use('/class', classRouter);
+app.use('/', attendanceRouter);
+app.use('/', classRouter);
 
 app.get("/", (req, res) => {
     res.send("Hello, World!");

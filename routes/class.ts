@@ -8,7 +8,7 @@ import { User } from "../models/userModel";
 
 const classRouter = Router();
 
-classRouter.post("/class", requireAuth, requireRole("teacher"), async (req, res) => {
+classRouter.post("/create-class", requireAuth, requireRole("teacher"), async (req, res) => {
     try {
         const { className } = classSchema.parse(req.body);
         const teacherId = req.user?.userId;
