@@ -19,12 +19,16 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/mongodb": "^4.0.7",
     "@types/mongoose": "^5.11.97",
+    "@types/websocket": "^1.0.10",
+    "@types/ws": "^8.18.1",
     "bcrypt": "^6.0.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "mongodb": "^7.0.0",
     "mongoose": "^9.1.1",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.3",
     "zod": "^4.3.4"
   }
 }

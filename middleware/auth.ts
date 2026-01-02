@@ -32,7 +32,7 @@ const extractToken = (
     return null;
 };
 
-const verifyUser = (
+export const verifyUser = (
     token: string
 ): { userId: string; role: string } | null => {
     try {
