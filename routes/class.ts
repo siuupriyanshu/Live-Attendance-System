@@ -133,3 +133,5 @@ classRouter.get(
         }
     }
 )
+
+export default classRouter;
