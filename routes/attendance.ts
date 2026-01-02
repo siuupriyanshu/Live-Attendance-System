@@ -113,3 +113,5 @@ attendanceRouter.post(
         }
     }
 )
+
+export default attendanceRouter;
