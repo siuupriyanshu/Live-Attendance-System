@@ -4,8 +4,7 @@ import { IncomingMessage } from "http"
 
 import { ClassModel } from "../models/classModel"
 import { AttendanceModel } from "../models/attendanceModel"
-import { User } from "../models/userModel"
-import { activeSession } from "../routes/attendance"
+import { activeSession } from "../controllers/attendanceController"
 
 const JWT_SECRET = process.env.JWT_SECRET as string
 
